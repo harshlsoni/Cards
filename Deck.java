@@ -13,6 +13,11 @@ class Deck{
 		String[] suits = {"Clubs","Diamonds","Hearts","Spades"};
 	}
 
+	for (String rank : ranks) {
+		for(String suit : suits) {
+			deck.add(new Card(rank,suit));
+		}
+	}
 
 
 }
