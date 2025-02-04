@@ -1,16 +1,16 @@
 // card.java
 
 class Card {
-	String rank;
-	String suit;
+	String ranks;
+	String suits;
 
-	public Card(String rank, String suit) {
-		this.rank = rank;
-		this.suit = suit;
+	public Card(String ranks, String suits) {
+		this.ranks = ranks;
+		this.suits = suits;
 	}
 
 	public String toString() {
-		return rank + " of " + suit;
+		return ranks + " of " + suits;
 	}
 
 

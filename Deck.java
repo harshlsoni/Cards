@@ -30,6 +30,21 @@ class Deck{
 		Collections.shuffle(deck);
 	}
 
+	public void randomCards() {
+
+		Random random = new Random();
+        	int index1 = random.nextInt(deck.size());  // Pick first random index
+        	int index2;
+
+        	// Ensure the second index is different from the first
+        	do {
+            		index2 = random.nextInt(deck.size());
+        	} while (index2 == index1);
+
+       		System.out.println("First Random Card: " + deck.get(index1));
+        	System.out.println("Second Random Card: " + deck.get(index2));		
+}
+
 
 
 }

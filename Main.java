@@ -11,5 +11,8 @@ class Main{
         System.out.println("*****Shuffling Deck******");
         deck.shuffleDeck();
         deck.displayDeck();
+
+	System.out.println("Selecting two random cards");
+	deck.randomCards();
     }
 }
