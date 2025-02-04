@@ -43,7 +43,22 @@ class Deck{
 
        		System.out.println("First Random Card: " + deck.get(index1));
         	System.out.println("Second Random Card: " + deck.get(index2));		
-}
+	}
+
+	public void players() {
+	
+		Card a[] = new Card[5];
+		Card b[] = new Card[5];
+		Card c[] = new Card[5];
+
+		for (int i = 0;i<5;i++) {
+			a.add(deck.get(i));
+		}
+
+		for (i:5) {
+			a.add(deck.get(i));
+		}
+	}
 
 
 
