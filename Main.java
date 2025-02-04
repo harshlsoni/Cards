@@ -8,5 +8,8 @@ class Main{
         deck.createDeck();
         System.out.println("*****Print Deck******");
         deck.displayDeck();
+        System.out.println("*****Shuffling Deck******");
+        deck.shuffleDeck();
+        deck.displayDeck();
     }
 }
