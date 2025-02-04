@@ -19,5 +19,11 @@ class Deck{
 		}
 	}
 
+	public void DisplayDeck() {
+		for (Card card: deck) {
+			System.out.println(card);
+		}
+	}
+
 
 }
