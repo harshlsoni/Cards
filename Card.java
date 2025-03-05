@@ -1,17 +1,23 @@
-// card.java
+// Card.java - Represents a single playing card
+public class Card {
+    private String suit;
+    private String rank;
 
-class Card {
-	String ranks;
-	String suits;
+    public Card(String suit, String rank) {
+        this.suit = suit;
+        this.rank = rank;
+    }
 
-	public Card(String ranks, String suits) {
-		this.ranks = ranks;
-		this.suits = suits;
-	}
+    public String getSuit() {
+        return suit;
+    }
 
-	public String toString() {
-		return ranks + " of " + suits;
-	}
+    public String getRank() {
+        return rank;
+    }
 
-
+    @Override
+    public String toString() {
+        return rank + " of " + suit;
+    }
 }
